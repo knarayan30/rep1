@@ -1,1 +1,112 @@
 
+C:\Users\Acer>D
+'D' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Acer>D:
+
+D:\>cd keshav
+
+D:\keshav>cd exp6
+
+D:\keshav\exp6>git clone https://github.com/knarayan30/rep1.git
+fatal: destination path 'rep1' already exists and is not an empty directory.
+
+D:\keshav\exp6>cd ..
+
+D:\keshav>mkdir k6
+
+D:\keshav>cd k6
+
+D:\keshav\k6>git clone https://github.com/knarayan30/rep1.git
+Cloning into 'rep1'...
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 24 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (24/24), 7.23 KiB | 7.23 MiB/s, done.
+
+D:\keshav\k6>cd rep1
+
+D:\keshav\k6\rep1>git fetch origin
+
+D:\keshav\k6\rep1>git rebase origin
+Current branch main is up to date.
+
+D:\keshav\k6\rep1>git rebase origin/main
+Current branch main is up to date.
+
+D:\keshav\k6\rep1>git fetch origin
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 970 bytes | 242.00 KiB/s, done.
+From https://github.com/knarayan30/rep1
+   4df5795..d4b84d3  main       -> origin/main
+
+D:\keshav\k6\rep1>git rebase origin/main
+Successfully rebased and updated refs/heads/main.
+
+D:\keshav\k6\rep1>keshav.txt
+
+D:\keshav\k6\rep1>git checkout -b fb1
+Switched to a new branch 'fb1'
+
+D:\keshav\k6\rep1>keshav.txt
+
+D:\keshav\k6\rep1>git add .
+
+D:\keshav\k6\rep1>git commit -m "gnvjh"
+[fb1 9ba2c36] gnvjh
+ 1 file changed, 2 insertions(+)
+
+D:\keshav\k6\rep1>git fetch origin
+
+D:\keshav\k6\rep1>git rebase origin/main
+Current branch fb1 is up to date.
+
+D:\keshav\k6\rep1>git fetch origin
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 950 bytes | 190.00 KiB/s, done.
+From https://github.com/knarayan30/rep1
+   d4b84d3..6338760  main       -> origin/main
+
+D:\keshav\k6\rep1>git rebase origin/main
+Auto-merging keshav.txt
+CONFLICT (content): Merge conflict in keshav.txt
+error: could not apply 9ba2c36... gnvjh
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
+Could not apply 9ba2c36... gnvjh
+
+D:\keshav\k6\rep1>keshav.txt
+
+D:\keshav\k6\rep1>git add .
+
+D:\keshav\k6\rep1>git rebase --continue
+hint: Waiting for your editor to close the file... unix2dos: converting file D:/keshav/k6/rep1/.git/COMMIT_EDITMSG to DOS format...
+dos2unix: converting file D:/keshav/k6/rep1/.git/COMMIT_EDITMSG to Unix format...
+[detached HEAD d6c2007] gnvjh
+ 1 file changed, 3 insertions(+)
+Successfully rebased and updated refs/heads/fb1.
+
+D:\keshav\k6\rep1>git push origin fb1
+remote: Permission to knarayan30/rep1.git denied to tikaweb276.
+fatal: unable to access 'https://github.com/knarayan30/rep1.git/': The requested URL returned error: 403
+
+D:\keshav\k6\rep1>
+
+
+
+
+
+
+
+
